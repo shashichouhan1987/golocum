@@ -437,6 +437,7 @@ color: rgba(18, 18, 18, 0.7);
 }
 .care-corner-slider{
     padding: 2rem 0;
+    cursor: pointer;
     /* border-top: 2px solid #E5E5E5; */
 }
 
@@ -828,3 +829,21 @@ border: 1px solid rgba(18, 18, 18, 0.1)
         margin-right: .25rem;
     }
 }
+
+
+.slide-in {
+    opacity: 0; 
+    transform: translateY(50%);
+    animation: slideIn 1s ease-in-out forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
