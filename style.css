@@ -437,7 +437,11 @@ color: rgba(18, 18, 18, 0.7);
 }
 .care-corner-slider{
     padding: 2rem 0;
-    border-top: 2px solid #E5E5E5;
+    /* border-top: 2px solid #E5E5E5; */
+}
+
+.care-p-bar{
+    padding: 2rem 0;
 }
 .care-corner-slider h4{
 font-size: 2rem;

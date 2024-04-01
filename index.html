@@ -1,101 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">  
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<title>Go Locum</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="/images/logo.svg" alt="Go Locum">
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Jobs
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Career</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <a href="#" class="btn btn-outline-secondary me-3">Login</a>
-            <a href="#" class="btn btn-secondary ">Sign Up</a>
-          </form>
-        </div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <title>Go Locum</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo.svg" alt="Go Locum">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Jobs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Career</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="#" class="btn btn-outline-secondary me-3">Login</a>
+          <a href="#" class="btn btn-secondary ">Sign Up</a>
+        </form>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <header class="hero">
-      <div class="container">
-        <div class="hero-img" data-aos="fade-up"
-        data-aos-duration="1600">
-          <div class="hero-content">
-            <span class="hero-chip rounded-pill"
-            >Find work across Australia <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.1665 10H15.8332" stroke="#121212" stroke-width="2" stroke-linejoin="round"/>
-              <path d="M10 4.16699L15.8333 10.0003L10 15.8337" stroke="#121212" stroke-width="2" stroke-linejoin="bevel"/>
-              </svg>
-              </span
-          >
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-img" data-aos="fade-up" data-aos-duration="1600">
+        <div class="hero-content">
+          <span class="hero-chip rounded-pill">Find work across Australia <svg width="20" height="20"
+              viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.1665 10H15.8332" stroke="#121212" stroke-width="2" stroke-linejoin="round" />
+              <path d="M10 4.16699L15.8333 10.0003L10 15.8337" stroke="#121212" stroke-width="2"
+                stroke-linejoin="bevel" />
+            </svg>
+          </span>
           <h1 class="hero-title">Empowering doctors to work flexibly.</h1>
           <form action="">
             <div class="hero-form-sec">
               <div class="">
-                <label for="exampleInputEmail1" class="form-label mb-0"
-                  >Choose Your Level</label
-                >
+                <label for="exampleInputEmail1" class="form-label mb-0">Choose Your Level</label>
                 <select class="form-select" aria-label="Default select example">
                   <option selected>Nurse</option>
                   <option value="1">Doctor</option>
@@ -104,9 +90,7 @@
                 </select>
               </div>
               <div class="">
-                <label for="exampleInputEmail1" class="form-label mb-0"
-                  >Choose Your speciality</label
-                >
+                <label for="exampleInputEmail1" class="form-label mb-0">Choose Your speciality</label>
                 <select class="form-select" aria-label="Default select example">
                   <option selected>All</option>
                   <option value="1">Fitness Wellness</option>
@@ -121,1259 +105,1184 @@
               </div>
             </div>
           </form>
-          </div>
         </div>
       </div>
-    </header>
-    <section class="clients">
-      <div class="container text-center">
-        <h5 data-aos="fade-up"
-        data-aos-duration="1600">Some Of Our Clients</h5>
-        <div class="clients_box">
-          <div class="" data-aos="fade-up"
-          data-aos-duration="1600">
-            <img src="/images/WAHS.png" alt="">
-          </div>
-          <div class="" data-aos="fade-up"
-          data-aos-duration="1600">
-            <img src="/images/NSW-HEALTH.png" alt="">
-          </div>
-          <div class="" data-aos="fade-up"
-          data-aos-duration="1600">
-            <img src="/images/northhern.png" alt="">
-          </div>
-          <div class="" data-aos="fade-up"
-          data-aos-duration="1600">
-            <img src="/images/tasmanian-health.png" alt="">
-          </div>
+    </div>
+  </header>
+  <section class="clients">
+    <div class="container text-center">
+      <h5 data-aos="fade-up" data-aos-duration="1600">Some Of Our Clients</h5>
+      <div class="clients_box">
+        <div class="" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/images/WAHS.png" alt="">
+        </div>
+        <div class="" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/images/NSW-HEALTH.png" alt="">
+        </div>
+        <div class="" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/images/northhern.png" alt="">
+        </div>
+        <div class="" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/images/tasmanian-health.png" alt="">
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="explore_jobs">
-      <div class="container">
-        <h2 data-aos="fade-up"
-        data-aos-duration="1600">Explore high-paying jobs</h2>
-        <div class="row">
-          <div class="col-md" data-aos="fade-up"
-          data-aos-duration="1600">
-            <ul class="nav nav-tabs mb-3 mb-md-5 mt-3" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="all-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#all"
-                  type="button"
-                  role="tab"
-                  aria-controls="home"
-                  aria-selected="true"
-                >
-                  All
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="trending-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#trending"
-                  type="button"
-                  role="tab"
-                  aria-controls="profile"
-                  aria-selected="false"
-                >
-                  Profile
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="nearby-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#nearby"
-                  type="button"
-                  role="tab"
-                  aria-controls="contact"
-                  aria-selected="false"
-                >
-                  Contact
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="latest-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#latest"
-                  type="button"
-                  role="tab"
-                  aria-controls="contact"
-                  aria-selected="false"
-                >
-                  Latest
-                </button>
-              </li>
-            </ul>
+  <section class="explore_jobs">
+    <div class="container">
+      <h2 data-aos="fade-up" data-aos-duration="1600">Explore high-paying jobs</h2>
+      <div class="row">
+        <div class="col-md" data-aos="fade-up" data-aos-duration="1600">
+          <ul class="nav nav-tabs mb-3 mb-md-5 mt-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button"
+                role="tab" aria-controls="home" aria-selected="true">
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="trending-tab" data-bs-toggle="tab" data-bs-target="#trending" type="button"
+                role="tab" aria-controls="profile" aria-selected="false">
+                Profile
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="nearby-tab" data-bs-toggle="tab" data-bs-target="#nearby" type="button"
+                role="tab" aria-controls="contact" aria-selected="false">
+                Contact
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="latest-tab" data-bs-toggle="tab" data-bs-target="#latest" type="button"
+                role="tab" aria-controls="contact" aria-selected="false">
+                Latest
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="col-auto" data-aos="fade-up" data-aos-duration="1600">
+          <p class="mb-3 tabs-para">
+            The largest digital platform directly connecting you with leading healthcare facilities across Australia.
+          </p>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+          <div class="row">
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Travel Nurse (RN)</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-2">
+                      <span></span>
+                    </div>
+                    <div>Allied Professional</div>
+                  </div>
+                  <h5 class="card-title">Cath Lab Tech</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Anaesthetics Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">General Medicine Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Gynaecology Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-3">
+                      <span></span>
+                    </div>
+                    <div>Registrar</div>
+                  </div>
+                  <h5 class="card-title">Emergency Registrar</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-auto" data-aos="fade-up"
-          data-aos-duration="1600">
-            <p class="mb-3 tabs-para">
-              The largest digital platform directly connecting you with leading healthcare facilities across Australia.
+          <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1600">
+            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg"
+                alt=""></a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="trending" role="tabpanel" aria-labelledby="trending-tab">
+          <div class="row">
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Travel Nurse (RN)</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-2">
+                      <span></span>
+                    </div>
+                    <div>Allied Professional</div>
+                  </div>
+                  <h5 class="card-title">Cath Lab Tech</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Anaesthetics Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">General Medicine Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Gynaecology Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-3">
+                      <span></span>
+                    </div>
+                    <div>Registrar</div>
+                  </div>
+                  <h5 class="card-title">Emergency Registrar</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1600">
+            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg"
+                alt=""></a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nearby" role="tabpanel" aria-labelledby="nearby-tab">
+          <div class="row">
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Travel Nurse (RN)</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-2">
+                      <span></span>
+                    </div>
+                    <div>Allied Professional</div>
+                  </div>
+                  <h5 class="card-title">Cath Lab Tech</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Anaesthetics Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">General Medicine Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Gynaecology Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-3">
+                      <span></span>
+                    </div>
+                    <div>Registrar</div>
+                  </div>
+                  <h5 class="card-title">Emergency Registrar</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1600">
+            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg"
+                alt=""></a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="latest" role="tabpanel" aria-labelledby="latest-tab">
+          <div class="row">
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Travel Nurse (RN)</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-2">
+                      <span></span>
+                    </div>
+                    <div>Allied Professional</div>
+                  </div>
+                  <h5 class="card-title">Cath Lab Tech</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Anaesthetics Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">General Medicine Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Sydney, New South Wales
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-1">
+                      <span></span>
+                    </div>
+                    <div>Nurse</div>
+                  </div>
+                  <h5 class="card-title">Gynaecology Consultant</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Melbourne, Victoria
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="card rounded">
+                <div class="card-body">
+                  <div class="card-professional">
+                    <div class="professional-3">
+                      <span></span>
+                    </div>
+                    <div>Registrar</div>
+                  </div>
+                  <h5 class="card-title">Emergency Registrar</h5>
+                  <div class="card-address me-2">
+                    <img src="/images/map-pin.svg" alt="">
+                    Brisbane, Queesnland
+                  </div>
+                  <div class="card-address">
+                    <img src="/images/ClockCountdown.svg" alt="">
+                    5 X 8, Night
+                  </div>
+
+                  <div class="card-price">
+                    $3,080<span>/wk</span>
+                  </div>
+                  <div class="card-address mt-1">
+                    <img src="/images/hospital.svg" alt="">
+                    <a href="#">Armidale Hospital,</a> 4 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1600">
+            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg"
+                alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work-anywhere">
+    <div class="container text-center">
+      <div data-aos="fade-up" data-aos-duration="1600">
+        <img src="/images/work-anywhere.svg" alt="" />
+      </div>
+      <div class="content" data-aos="fade-up" data-aos-duration="1600">
+        <h3>
+          <span>Work Anywhere. Work Flexibly.</span> Go Locum provides the technology to
+          freely and flexibly find Locum work across <span>Australia.</span> Therefore
+          putting the <span>healthcare</span> where it is needed the most.
+        </h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <div class="container">
+      <div class="text-center" data-aos="fade-up" data-aos-duration="1600">
+        <span class="heading-chip rounded-pill">How it works</span>
+        <h2 class="mt-3">A dynamic digital process with a human touch</h2>
+      </div>
+
+      <div class="how-it-point row">
+        <div class="col-12">
+          <div class="dot-line" data-aos="fade-up" data-aos-duration="1600">
+            <img src="/images/dot-lines.svg" alt="">
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1600">
+          <div class="how-it-box text-center">
+            <img class="dots dots-1" src="/images/get-dots.svg" alt="">
+            <div class="how-it-img how-it-img-1">
+              <img src="/images/get-credentialed.svg" alt="">
+            </div>
+            <div class="h4">
+              Get credentialed
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
+            </p>
+
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1600">
+          <div class="how-it-box text-center">
+            <img src="/images/explore-dots.svg" class="dots dots-2" alt="">
+            <div class="how-it-img how-it-img-2">
+              <img src="/images/explore-apply.svg" alt="">
+            </div>
+            <div class="h4">
+              Explore and apply
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
             </p>
           </div>
         </div>
-        <div class="tab-content" id="myTabContent">
-          <div
-            class="tab-pane fade show active"
-            id="all"
-            role="tabpanel"
-            aria-labelledby="all-tab"
-          >
-            <div class="row">
-              <div class="col-md-4 mb-3" data-aos="fade-up"
-              data-aos-duration="1600">
-                <div class="card rounded">
-                  <div class="card-body">
-                    <div class="card-professional">
-                      <div class="professional-1">
-                        <span></span>
-                      </div>
-                      <div>Nurse</div>
-                    </div>
-                    <h5 class="card-title">Travel Nurse (RN)</h5>
-                    <div class="card-address me-2">
-                      <img src="/images/map-pin.svg" alt="">
-                      Sydney, New South Wales
-                    </div>
-                    <div class="card-address">
-                      <img src="/images/ClockCountdown.svg" alt="">
-                      5 X 8, Night
-                    </div>
-
-                    <div class="card-price">
-                      $3,080<span>/wk</span>
-                    </div>
-                    <div class="card-address mt-1">
-                      <img src="/images/hospital.svg" alt="">
-                      <a href="#">Armidale Hospital,</a> 4 days ago
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 mb-4" data-aos="fade-up"
-              data-aos-duration="1600">
-                <div class="card rounded">
-                  <div class="card-body">
-                    <div class="card-professional">
-                      <div class="professional-2">
-                        <span></span>
-                      </div>
-                      <div>Allied Professional</div>
-                    </div>
-                    <h5 class="card-title">Cath Lab Tech</h5>
-                    <div class="card-address me-2">
-                      <img src="/images/map-pin.svg" alt="">
-                      Melbourne, Victoria
-                    </div>
-                    <div class="card-address">
-                      <img src="/images/ClockCountdown.svg" alt="">
-                      5 X 8, Night
-                    </div>
-
-                    <div class="card-price">
-                      $3,080<span>/wk</span>
-                    </div>
-                    <div class="card-address mt-1">
-                      <img src="/images/hospital.svg" alt="">
-                      <a href="#">Armidale Hospital,</a> 4 days ago
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 mb-4" data-aos="fade-up"
-              data-aos-duration="1600">
-                <div class="card rounded">
-                  <div class="card-body">
-                    <div class="card-professional">
-                      <div class="professional-1">
-                        <span></span>
-                      </div>
-                      <div>Nurse</div>
-                    </div>
-                    <h5 class="card-title">Anaesthetics Consultant</h5>
-                    <div class="card-address me-2">
-                      <img src="/images/map-pin.svg" alt="">
-                      Brisbane, Queesnland
-                    </div>
-                    <div class="card-address">
-                      <img src="/images/ClockCountdown.svg" alt="">
-                      5 X 8, Night
-                    </div>
-
-                    <div class="card-price">
-                      $3,080<span>/wk</span>
-                    </div>
-                    <div class="card-address mt-1">
-                      <img src="/images/hospital.svg" alt="">
-                      <a href="#">Armidale Hospital,</a> 4 days ago
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-md-4 mb-4" data-aos="fade-up"
-              data-aos-duration="1600">
-                <div class="card rounded">
-                  <div class="card-body">
-                    <div class="card-professional">
-                      <div class="professional-1">
-                        <span></span>
-                      </div>
-                      <div>Nurse</div>
-                    </div>
-                    <h5 class="card-title">General Medicine Consultant</h5>
-                    <div class="card-address me-2">
-                      <img src="/images/map-pin.svg" alt="">
-                      Sydney, New South Wales
-                    </div>
-                    <div class="card-address">
-                      <img src="/images/ClockCountdown.svg" alt="">
-                      5 X 8, Night
-                    </div>
-
-                    <div class="card-price">
-                      $3,080<span>/wk</span>
-                    </div>
-                    <div class="card-address mt-1">
-                      <img src="/images/hospital.svg" alt="">
-                      <a href="#">Armidale Hospital,</a> 4 days ago
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 mb-4" data-aos="fade-up"
-              data-aos-duration="1600">
-                <div class="card rounded">
-                  <div class="card-body">
-                    <div class="card-professional">
-                      <div class="professional-1">
-                        <span></span>
-                      </div>
-                      <div>Nurse</div>
-                    </div>
-                    <h5 class="card-title">Gynaecology Consultant</h5>
-                    <div class="card-address me-2">
-                      <img src="/images/map-pin.svg" alt="">
-                      Melbourne, Victoria
-                    </div>
-                    <div class="card-address">
-                      <img src="/images/ClockCountdown.svg" alt="">
-                      5 X 8, Night
-                    </div>
-
-                    <div class="card-price">
-                      $3,080<span>/wk</span>
-                    </div>
-                    <div class="card-address mt-1">
-                      <img src="/images/hospital.svg" alt="">
-                      <a href="#">Armidale Hospital,</a> 4 days ago
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4 mb-4" data-aos="fade-up"
-              data-aos-duration="1600">
-                <div class="card rounded">
-                  <div class="card-body">
-                    <div class="card-professional">
-                      <div class="professional-3">
-                        <span></span>
-                      </div>
-                      <div>Registrar</div>
-                    </div>
-                    <h5 class="card-title">Emergency Registrar</h5>
-                    <div class="card-address me-2">
-                      <img src="/images/map-pin.svg" alt="">
-                      Brisbane, Queesnland
-                    </div>
-                    <div class="card-address">
-                      <img src="/images/ClockCountdown.svg" alt="">
-                      5 X 8, Night
-                    </div>
-
-                    <div class="card-price">
-                      $3,080<span>/wk</span>
-                    </div>
-                    <div class="card-address mt-1">
-                      <img src="/images/hospital.svg" alt="">
-                      <a href="#">Armidale Hospital,</a> 4 days ago
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1600">
+          <div class="how-it-box text-center">
+            <img src="/images/accept-dots.svg" class="dots dots-3" alt="">
+            <div class="how-it-img how-it-img-3">
+              <img src="/images/accept-offer.svg" alt="">
             </div>
-            <div class="text-center mt-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg" alt=""></a>
+            <div class="h4">
+              Accept an offer
             </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
+            </p>
           </div>
-          <div
-            class="tab-pane fade"
-            id="trending"
-            role="tabpanel"
-            aria-labelledby="trending-tab"
-          >
-          <div class="row">
-            <div class="col-md-4 mb-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Travel Nurse (RN)</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Sydney, New South Wales
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-duration="1600">
+          <div class="how-it-box text-center">
+            <img src="/images/start-dots.svg" class="dots dots-4" alt="">
+            <div class="how-it-img how-it-img-4">
+              <img src="/images/start-seeing.svg" alt="">
             </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-2">
-                      <span></span>
-                    </div>
-                    <div>Allied Professional</div>
-                  </div>
-                  <h5 class="card-title">Cath Lab Tech</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Melbourne, Victoria
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
+            <div class="h4">
+              Start seeing patients
             </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Anaesthetics Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Brisbane, Queesnland
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">General Medicine Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Sydney, New South Wales
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Gynaecology Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Melbourne, Victoria
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-3">
-                      <span></span>
-                    </div>
-                    <div>Registrar</div>
-                  </div>
-                  <h5 class="card-title">Emergency Registrar</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Brisbane, Queesnland
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="text-center mt-4" data-aos="fade-up"
-          data-aos-duration="1600">
-            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg" alt=""></a>
-          </div>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="nearby"
-            role="tabpanel"
-            aria-labelledby="nearby-tab"
-          >
-          <div class="row">
-            <div class="col-md-4 mb-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Travel Nurse (RN)</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Sydney, New South Wales
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-2">
-                      <span></span>
-                    </div>
-                    <div>Allied Professional</div>
-                  </div>
-                  <h5 class="card-title">Cath Lab Tech</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Melbourne, Victoria
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Anaesthetics Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Brisbane, Queesnland
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">General Medicine Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Sydney, New South Wales
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600" >
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Gynaecology Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Melbourne, Victoria
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-3">
-                      <span></span>
-                    </div>
-                    <div>Registrar</div>
-                  </div>
-                  <h5 class="card-title">Emergency Registrar</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Brisbane, Queesnland
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="text-center mt-4" data-aos="fade-up"
-          data-aos-duration="1600">
-            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg" alt=""></a>
-          </div>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="latest"
-            role="tabpanel"
-            aria-labelledby="latest-tab"
-          >
-          <div class="row">
-            <div class="col-md-4 mb-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Travel Nurse (RN)</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Sydney, New South Wales
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-2">
-                      <span></span>
-                    </div>
-                    <div>Allied Professional</div>
-                  </div>
-                  <h5 class="card-title">Cath Lab Tech</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Melbourne, Victoria
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Anaesthetics Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Brisbane, Queesnland
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">General Medicine Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Sydney, New South Wales
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-1">
-                      <span></span>
-                    </div>
-                    <div>Nurse</div>
-                  </div>
-                  <h5 class="card-title">Gynaecology Consultant</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Melbourne, Victoria
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="card rounded">
-                <div class="card-body">
-                  <div class="card-professional">
-                    <div class="professional-3">
-                      <span></span>
-                    </div>
-                    <div>Registrar</div>
-                  </div>
-                  <h5 class="card-title">Emergency Registrar</h5>
-                  <div class="card-address me-2">
-                    <img src="/images/map-pin.svg" alt="">
-                    Brisbane, Queesnland
-                  </div>
-                  <div class="card-address">
-                    <img src="/images/ClockCountdown.svg" alt="">
-                    5 X 8, Night
-                  </div>
-
-                  <div class="card-price">
-                    $3,080<span>/wk</span>
-                  </div>
-                  <div class="card-address mt-1">
-                    <img src="/images/hospital.svg" alt="">
-                    <a href="#">Armidale Hospital,</a> 4 days ago
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="text-center mt-4" data-aos="fade-up"
-          data-aos-duration="1600">
-            <a href="#" class="view-more-jobs"><span>View More Jobs</span> <img src="/images/ArrowCircleRight.svg" alt=""></a>
-          </div>
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+      <div class="text-center" data-aos="fade-up" data-aos-duration="1600">
+        <a href="#" class="btn btn-primary rounded-pill">Get Started</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="work-anywhere">
-      <div class="container text-center">
-        <div data-aos="fade-up"
-        data-aos-duration="1600"> 
-          <img src="/images/work-anywhere.svg" alt="" />
+  <section class="care-corner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-up" data-aos-duration="1600">
+          <span class="heading-chip">What we do</span>
+          <h2 class="mt-3">Care for
+            Every Corner.</h2>
         </div>
-        <div class="content" data-aos="fade-up"
-        data-aos-duration="1600">
-          <h3>
-           <span>Work Anywhere. Work Flexibly.</span> Go Locum provides the technology to
-            freely and flexibly find Locum work across <span>Australia.</span> Therefore
-            putting the <span>healthcare</span> where it is needed the most.
-          </h3>
+        <div class="col-md-6 d-flex align-items-end" data-aos="fade-up" data-aos-duration="1600">
+          <p class="mt-3 care-para ms-md-auto">
+            With Every Hour worked, we give back organisations working in Australia's Most Remote Communities.
+          </p>
         </div>
       </div>
-    </section>
-
-    <section class="how-it-works">
-      <div class="container">
-        <div class="text-center" data-aos="fade-up"
-        data-aos-duration="1600">
-          <span class="heading-chip rounded-pill"
-            >How it works</span
-          >
-          <h2 class="mt-3">A dynamic digital process with a human touch</h2>
-        </div>
-
-        <div class="how-it-point row">
-            <div class="col-12">
-              <div class="dot-line" data-aos="fade-up"
-              data-aos-duration="1600">
-                <img src="/images/dot-lines.svg" alt="">
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="how-it-box text-center">
-                  <img class="dots dots-1" src="/images/get-dots.svg" alt="">
-                  <div class="how-it-img how-it-img-1">
-                      <img src="/images/get-credentialed.svg" alt="">
-                  </div>
-                  <div class="h4">
-                    Get credentialed
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
-                  </p>
-
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="how-it-box text-center">
-                <img src="/images/explore-dots.svg" class="dots dots-2" alt="">
-                  <div class="how-it-img how-it-img-2">
-                      <img src="/images/explore-apply.svg" alt="">
-                  </div>
-                  <div class="h4">
-                    Explore and apply
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
-                  </p>
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="how-it-box text-center">
-                <img src="/images/accept-dots.svg" class="dots dots-3" alt="">
-                  <div class="how-it-img how-it-img-3">
-                      <img src="/images/accept-offer.svg" alt="">
-                  </div>
-                  <div class="h4">
-                    Accept an offer
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
-                  </p>
-              </div>
-            </div>
-            <div class="col-md-3" data-aos="fade-up"
-            data-aos-duration="1600">
-              <div class="how-it-box text-center">
-                <img src="/images/start-dots.svg" class="dots dots-4" alt="">
-                  <div class="how-it-img how-it-img-4">
-                      <img src="/images/start-seeing.svg" alt="">
-                  </div>
-                  <div class="h4">
-                    Start seeing patients
-                  </div>
-                  <p class="">
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque viverra nulla id quis massa.
-                  </p>
-              </div>
-            </div>
-        </div>
-        <div class="text-center" data-aos="fade-up"
-        data-aos-duration="1600">
-            <a href="#" class="btn btn-primary rounded-pill">Get Started</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="care-corner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" data-aos="fade-up"
-                data-aos-duration="1600">
-                  <span class="heading-chip"
-                  >What we do</span
-                >
-                <h2 class="mt-3">Care for
-                  Every Corner.</h2> 
-                </div>
-                <div class="col-md-6 d-flex align-items-end" data-aos="fade-up"
-                data-aos-duration="1600">
-                  <p class="mt-3 care-para ms-md-auto">
-                    With Every Hour worked, we give back organisations working in Australia's Most Remote Communities.
-                  </p>
-                </div>
-            </div>
 
 
-            <div class="row mt-5 card-slider">
-              <div class="col-md-6 pe-md-5" data-aos="fade-up"
-              data-aos-duration="1600">
-                  <div class="care-corner-slider">
-                    <div class="content">
-                      <div class="care-corner-chip">01</div>
-                      <h4>Speedy onboarding</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur. Urna aliquam at mi tempor scelerisque aliquet. Non congue mauris tellus feugiat et est sollicitudin.
-                      </p>
-                    </div>
-                   
-                  </div>
-                  <div class="care-corner-slider">
-                    <div class="content">
-                      <div class="care-corner-chip">02</div>
-                      <h4>Transparent</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur. Urna aliquam at mi tempor scelerisque aliquet. Non congue mauris tellus feugiat et est sollicitudin.
-                      </p>
-                    </div>
-                   
-                  </div>
-                  <div class="care-corner-slider">
-                    <div class="content">
-                      <div class="care-corner-chip">03</div>
-                      <h4>High Pay. Hassle-Free.</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur. Urna aliquam at mi tempor scelerisque aliquet. Non congue mauris tellus feugiat et est sollicitudin.
-                      </p>
-                    </div>
-                   
-                  </div>
-
-                 
-
-              </div>
-              <div class="col-md-6 mt-4 mt-md-0" data-aos="fade-up"
-              data-aos-duration="1600">
-                  <div class="care-corner-img">
-                    <div class="care-corner-img-1">
-                      <img src="/images/speedy-img.svg" class="w-100" alt="">
-                      <img src="/images/speedy-img-2.svg" class="speed-pop-img" alt="">
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="review-sec">
-      <div class="container">
-          <div class="review-sec-box">
-                  <div class="review-sec-img" data-aos="fade-up"
-                  data-aos-duration="1600">
-                    <img src="/images/review-client.png" alt="">
-                  </div>
-                  <div class="review-sec-content text-center" data-aos="fade-up"
-                  data-aos-duration="1600">
-                      <img src="/images/quote.svg" alt="">
-                    <div>
-                      <div class="review-sec-text mt-md-3">
-                        At first, I thought Go Locum was a new agency (it's not), but I realized I could look at a ton of jobs on one website and talk with a bunch
-                        of recruiters.”
-                      </div>
-                      <div class="review-client-title">
-                          Sofia Jones
-                      </div>
-                      <div class="review-client-role">
-                        Travel Nurse (RN)
-                      </div>
-                     
-                    </div>
-                  </div>
+      <div class="row mt-5 card-slider">
+        <div class="col-md-6 pe-md-5" data-aos="fade-up" data-aos-duration="1600">
+          <div class="progress" style="height: 2px; background-color: '#E5E5E5';">
+            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
           </div>
+          <div class="care-corner-slider">
+            <div class="content">
+              <div class="care-corner-chip">01</div>
+              <h4>Speedy onboarding</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Urna aliquam at mi tempor scelerisque aliquet. Non congue mauris
+                tellus feugiat et est sollicitudin.
+              </p>
+            </div>
+
+          </div>
+          <div class="progress" style="height: 2px; background-color: '#E5E5E5';">
+            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <div class="care-corner-slider">
+            <div class="content">
+              <div class="care-corner-chip">02</div>
+              <h4>Transparent</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Urna aliquam at mi tempor scelerisque aliquet. Non congue mauris
+                tellus feugiat et est sollicitudin.
+              </p>
+            </div>
+
+          </div>
+          <div class="progress" style="height: 2px; background-color: '#E5E5E5';">
+            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <div class="care-corner-slider">
+            <div class="content">
+              <div class="care-corner-chip">03</div>
+              <h4>High Pay. Hassle-Free.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Urna aliquam at mi tempor scelerisque aliquet. Non congue mauris
+                tellus feugiat et est sollicitudin.
+              </p>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-duration="1600">
+          <div class="care-corner-img">
+            <div class="care-corner-img-1">
+              <img src="/images/speedy-img.svg" class="w-100" alt="">
+              <img src="/images/speedy-img-2.svg" class="speed-pop-img" alt="">
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-    <!-- Footer -->
-    <footer data-aos="fade-up"
-    data-aos-duration="1600">
-      <div class="container">
+    </div>
+  </section>
 
-        <div class="row">
-          <div class="col-md-5 footer-flex">
+  <section class="review-sec">
+    <div class="container">
+      <div class="review-sec-box">
+        <div class="review-sec-img" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/images/review-client.png" alt="">
+        </div>
+        <div class="review-sec-content text-center" data-aos="fade-up" data-aos-duration="1600">
+          <img src="/images/quote.svg" alt="">
+          <div>
+            <div class="review-sec-text mt-md-3">
+              At first, I thought Go Locum was a new agency (it's not), but I realized I could look at a ton of jobs on
+              one website and talk with a bunch
+              of recruiters.”
+            </div>
+            <div class="review-client-title">
+              Sofia Jones
+            </div>
+            <div class="review-client-role">
+              Travel Nurse (RN)
+            </div>
 
-           <div class="mb-auto" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer data-aos="fade-up" data-aos-duration="1600">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-5 footer-flex">
+
+          <div class="mb-auto">
             <div><img src="/images/logo.svg" alt=""></div>
             <p class="mt-3">
               Empowering doctors to work flexibly.
             </p>
-           </div>
-            <div class="social" >
-              <ul>
-                <li>
-                  <a href="">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.9999 19.2C15.3018 19.2 19.5999 14.9019 19.5999 9.6C19.5999 4.29806 15.3018 0 9.9999 0C4.69797 0 0.399902 4.29806 0.399902 9.6C0.399902 14.9019 4.69797 19.2 9.9999 19.2Z" fill="#121212"/>
-                      <mask id="mask0_0_966" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.9999 19.2C15.3018 19.2 19.5999 14.9019 19.5999 9.6C19.5999 4.29806 15.3018 0 9.9999 0C4.69797 0 0.399902 4.29806 0.399902 9.6C0.399902 14.9019 4.69797 19.2 9.9999 19.2Z" fill="#00081D"/>
-                      </mask>
-                      <g mask="url(#mask0_0_966)">
-                      <path d="M10.6595 7.98391C10.6595 7.36268 11.1631 6.85907 11.7844 6.85907H12.9092C13.5305 6.85907 14.0341 6.35546 14.0341 5.73422C14.0341 5.11299 13.5305 4.60938 12.9092 4.60938H11.7844C9.92063 4.60938 8.40985 6.12021 8.40985 7.98391V10.2336H7.285C6.66377 10.2336 6.16016 10.7372 6.16016 11.3584C6.16016 11.9797 6.66376 12.4833 7.285 12.4833H8.40985V19.2324C8.40985 19.8536 8.91344 20.3572 9.53469 20.3572C10.1559 20.3572 10.6595 19.8536 10.6595 19.2324V12.4833H12.9092C13.5305 12.4833 14.0341 11.9797 14.0341 11.3584C14.0341 10.7372 13.5305 10.2336 12.9092 10.2336H10.6595V7.98391Z" fill="white"/>
-                      </g>
-                      </svg>
-                      
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0013 0C7.39406 0 7.06686 0.0114001 6.04285 0.0580006C5.02084 0.104801 4.32323 0.266603 3.71282 0.504005C3.08142 0.749208 2.54581 1.07721 2.01221 1.61102C1.4782 2.14462 1.1502 2.68023 0.904196 3.31143C0.666193 3.92204 0.504192 4.61985 0.458191 5.64146C0.412391 6.66547 0.400391 6.99287 0.400391 9.6001C0.400391 12.2073 0.411991 12.5335 0.458391 13.5575C0.505392 14.5796 0.667193 15.2772 0.904396 15.8876C1.1498 16.519 1.4778 17.0546 2.01161 17.5882C2.54501 18.1222 3.08062 18.451 3.71162 18.6962C4.32243 18.9336 5.02024 19.0954 6.04205 19.1422C7.06606 19.1888 7.39306 19.2002 10.0001 19.2002C12.6075 19.2002 12.9337 19.1888 13.9577 19.1422C14.9797 19.0954 15.6781 18.9336 16.289 18.6962C16.9202 18.451 17.455 18.1222 17.9884 17.5882C18.5224 17.0546 18.8504 16.519 19.0964 15.8878C19.3324 15.2772 19.4944 14.5794 19.5424 13.5577C19.5884 12.5337 19.6004 12.2073 19.6004 9.6001C19.6004 6.99287 19.5884 6.66567 19.5424 5.64166C19.4944 4.61965 19.3324 3.92204 19.0964 3.31163C18.8504 2.68023 18.5224 2.14462 17.9884 1.61102C17.4544 1.07701 16.9204 0.749008 16.2884 0.504005C15.6763 0.266603 14.9783 0.104801 13.9563 0.0580006C12.9323 0.0114001 12.6063 0 9.99829 0H10.0013ZM9.14004 1.72999C9.39564 1.72959 9.68084 1.72999 10.0012 1.72999C12.5645 1.72999 12.8683 1.73919 13.8805 1.78519C14.8165 1.82799 15.3245 1.98439 15.6629 2.11579C16.1109 2.2898 16.4303 2.4978 16.7661 2.8338C17.1021 3.16981 17.3101 3.48981 17.4845 3.93781C17.6159 4.27582 17.7725 4.78382 17.8151 5.71983C17.8611 6.73184 17.8711 7.03585 17.8711 9.59787C17.8711 12.1599 17.8611 12.4639 17.8151 13.4759C17.7723 14.4119 17.6159 14.9199 17.4845 15.2579C17.3105 15.7059 17.1021 16.0249 16.7661 16.3607C16.4301 16.6967 16.1111 16.9047 15.6629 17.0788C15.3249 17.2108 14.8165 17.3668 13.8805 17.4096C12.8685 17.4556 12.5645 17.4656 10.0012 17.4656C7.43782 17.4656 7.13402 17.4556 6.12201 17.4096C5.186 17.3664 4.67799 17.21 4.33939 17.0786C3.89139 16.9045 3.57138 16.6965 3.23538 16.3605C2.89937 16.0245 2.69137 15.7053 2.51697 15.2571C2.38557 14.9191 2.22897 14.4111 2.18637 13.4751C2.14037 12.4631 2.13117 12.1591 2.13117 9.59547C2.13117 7.03185 2.14037 6.72944 2.18637 5.71743C2.22917 4.78142 2.38557 4.27342 2.51697 3.93501C2.69097 3.48701 2.89937 3.16701 3.23538 2.831C3.57138 2.495 3.89139 2.287 4.33939 2.1126C4.67779 1.98059 5.186 1.82459 6.12201 1.78159C7.00762 1.74159 7.35082 1.72959 9.14004 1.72759V1.72999ZM15.1257 3.32401C14.4897 3.32401 13.9737 3.83942 13.9737 4.47562C13.9737 5.11163 14.4897 5.62764 15.1257 5.62764C15.7617 5.62764 16.2777 5.11163 16.2777 4.47562C16.2777 3.83962 15.7617 3.32401 15.1257 3.32401ZM10.0013 4.67002C7.27868 4.67002 5.07125 6.87745 5.07125 9.60007C5.07125 12.3227 7.27868 14.5291 10.0013 14.5291C12.7239 14.5291 14.9306 12.3227 14.9306 9.60007C14.9306 6.87745 12.7239 4.67002 10.0013 4.67002ZM10.0013 6.40004C11.7685 6.40004 13.2013 7.83265 13.2013 9.60007C13.2013 11.3673 11.7685 12.8001 10.0013 12.8001C8.23385 12.8001 6.80123 11.3673 6.80123 9.60007C6.80123 7.83265 8.23385 6.40004 10.0013 6.40004Z" fill="#121212"/>
-                      </svg>
-                      
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="text-primary text-2xl">
-                    <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.7226 4.42002L9.76422 5.1063L9.07056 5.02226C6.54567 4.70013 4.33985 3.60768 2.46699 1.77293L1.55137 0.862562L1.31552 1.53484C0.816094 3.03345 1.13517 4.6161 2.17565 5.68053C2.73058 6.26877 2.60572 6.35281 1.64848 6.00266C1.31552 5.89062 1.02419 5.80658 0.996444 5.8486C0.899332 5.94664 1.23229 7.22116 1.49587 7.72537C1.85657 8.42565 2.59185 9.11194 3.39648 9.5181L4.07626 9.84023L3.27163 9.85424C2.49473 9.85424 2.46699 9.86825 2.55023 10.1624C2.82769 11.0727 3.92366 12.0391 5.14449 12.4593L6.00462 12.7534L5.25547 13.2016C4.14563 13.8459 2.84156 14.21 1.53749 14.238C0.913205 14.252 0.399902 14.3081 0.399902 14.3501C0.399902 14.4901 2.09242 15.2745 3.0774 15.5826C6.03236 16.493 9.54225 16.1008 12.1781 14.5462C14.051 13.4397 15.9239 11.2408 16.7979 9.11194C17.2695 7.97747 17.7412 5.90462 17.7412 4.91022C17.7412 4.26595 17.7828 4.18192 18.5597 3.4116C19.0175 2.96342 19.4476 2.47322 19.5308 2.33316C19.6696 2.06705 19.6557 2.06705 18.9482 2.30515C17.769 2.72532 17.6025 2.6693 18.1852 2.03904C18.6152 1.59086 19.1285 0.778527 19.1285 0.54043C19.1285 0.498413 18.9204 0.568441 18.6846 0.694493C18.4349 0.83455 17.88 1.04464 17.4638 1.17069L16.7146 1.40878L16.0348 0.946596C15.6603 0.694493 15.1331 0.414378 14.8556 0.330344C14.1481 0.134264 13.066 0.162275 12.4278 0.386367C10.6937 1.01662 9.59774 2.64129 9.7226 4.42002Z" fill="#121212"/>
-                      </svg>
-                      
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" class="text-primary text-2xl">
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000104814 5.0003C8.62885e-05 2.64318 7.70256e-05 1.46463 0.732303 0.732387C1.46453 0.000148157 2.64307 0.000137597 5.00014 0.000116478L13.0013 4.47876e-05C15.3578 2.36738e-05 16.5361 1.31169e-05 17.2683 0.732108C18.0005 1.4642 18.0007 2.64175 18.001 4.99685C18.0014 7.40221 18.0017 10.337 18.0015 13.0051C18.0013 15.3589 18.0012 16.5357 17.269 17.2679C16.5368 18 15.3595 18.0001 13.0048 18.0002C10.3365 18.0003 7.66829 17.9999 5.00006 17.9997C2.64291 17.9994 1.46434 17.9993 0.732194 17.2671C4.9263e-05 16.5349 5.90805e-05 15.3564 7.87155e-05 12.9994C0.000100927 10.333 0.000125771 7.66665 0.000104814 5.0003ZM7.12478 8.08095C7.12478 7.40789 7.6704 6.86227 8.34346 6.86227H9.32838C9.45748 6.86227 9.56214 6.96693 9.56214 7.09603C9.56214 7.34271 10.0036 7.48925 10.201 7.34131C10.6686 6.99087 11.3312 6.74936 12.1664 6.74936C14.7592 6.74936 15.3737 8.15091 15.3737 10.7225V14.174C15.3737 14.8985 14.7863 15.4859 14.0617 15.4859C13.3372 15.4859 12.7498 14.8985 12.7498 14.174V11.3083C12.7498 9.84373 12.398 9.01737 11.5045 9.01737C10.265 9.01737 9.74951 9.90837 9.74951 11.3083V14.1735C9.74951 14.8983 9.16194 15.4859 8.43714 15.4859C7.71234 15.4859 7.12478 14.8983 7.12478 14.1735V8.08095ZM2.62478 14.0615C2.62478 14.7863 3.21234 15.3738 3.93714 15.3738C4.66194 15.3738 5.24951 14.7863 5.24951 14.0615V8.06173C5.24951 7.33693 4.66194 6.74936 3.93714 6.74936C3.21234 6.74936 2.62478 7.33693 2.62478 8.06173V14.0615ZM5.62505 3.93645C5.63 4.16119 5.59001 4.38464 5.50743 4.59371C5.42485 4.80278 5.30134 4.99325 5.14415 5.15393C4.98696 5.31462 4.79926 5.44229 4.59206 5.52946C4.38486 5.61662 4.16234 5.66152 3.93755 5.66152C3.71277 5.66152 3.49024 5.61662 3.28304 5.52946C3.07584 5.44229 2.88814 5.31462 2.73095 5.15393C2.57376 4.99325 2.45026 4.80278 2.36767 4.59371C2.28509 4.38464 2.2451 4.16119 2.25005 3.93645C2.25977 3.49534 2.44182 3.07556 2.75723 2.76702C3.07264 2.45848 3.49633 2.28571 3.93755 2.28571C4.37878 2.28571 4.80246 2.45848 5.11787 2.76702C5.43328 3.07556 5.61534 3.49534 5.62505 3.93645Z" fill="#121212"/>
-                      </svg>
-                      
-                      
-                  </a>
-                </li>
-              </ul>
           </div>
-            
-          </div>
-          <div class="col-md mt-4">
-            <div class="h6">
-              Company
-            </div>
+          <div class="social">
             <ul>
               <li>
-                <a href="">About Us</a>
+                <a href="">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.9999 19.2C15.3018 19.2 19.5999 14.9019 19.5999 9.6C19.5999 4.29806 15.3018 0 9.9999 0C4.69797 0 0.399902 4.29806 0.399902 9.6C0.399902 14.9019 4.69797 19.2 9.9999 19.2Z"
+                      fill="#121212" />
+                    <mask id="mask0_0_966" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+                      height="20">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.9999 19.2C15.3018 19.2 19.5999 14.9019 19.5999 9.6C19.5999 4.29806 15.3018 0 9.9999 0C4.69797 0 0.399902 4.29806 0.399902 9.6C0.399902 14.9019 4.69797 19.2 9.9999 19.2Z"
+                        fill="#00081D" />
+                    </mask>
+                    <g mask="url(#mask0_0_966)">
+                      <path
+                        d="M10.6595 7.98391C10.6595 7.36268 11.1631 6.85907 11.7844 6.85907H12.9092C13.5305 6.85907 14.0341 6.35546 14.0341 5.73422C14.0341 5.11299 13.5305 4.60938 12.9092 4.60938H11.7844C9.92063 4.60938 8.40985 6.12021 8.40985 7.98391V10.2336H7.285C6.66377 10.2336 6.16016 10.7372 6.16016 11.3584C6.16016 11.9797 6.66376 12.4833 7.285 12.4833H8.40985V19.2324C8.40985 19.8536 8.91344 20.3572 9.53469 20.3572C10.1559 20.3572 10.6595 19.8536 10.6595 19.2324V12.4833H12.9092C13.5305 12.4833 14.0341 11.9797 14.0341 11.3584C14.0341 10.7372 13.5305 10.2336 12.9092 10.2336H10.6595V7.98391Z"
+                        fill="white" />
+                    </g>
+                  </svg>
+
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M10.0013 0C7.39406 0 7.06686 0.0114001 6.04285 0.0580006C5.02084 0.104801 4.32323 0.266603 3.71282 0.504005C3.08142 0.749208 2.54581 1.07721 2.01221 1.61102C1.4782 2.14462 1.1502 2.68023 0.904196 3.31143C0.666193 3.92204 0.504192 4.61985 0.458191 5.64146C0.412391 6.66547 0.400391 6.99287 0.400391 9.6001C0.400391 12.2073 0.411991 12.5335 0.458391 13.5575C0.505392 14.5796 0.667193 15.2772 0.904396 15.8876C1.1498 16.519 1.4778 17.0546 2.01161 17.5882C2.54501 18.1222 3.08062 18.451 3.71162 18.6962C4.32243 18.9336 5.02024 19.0954 6.04205 19.1422C7.06606 19.1888 7.39306 19.2002 10.0001 19.2002C12.6075 19.2002 12.9337 19.1888 13.9577 19.1422C14.9797 19.0954 15.6781 18.9336 16.289 18.6962C16.9202 18.451 17.455 18.1222 17.9884 17.5882C18.5224 17.0546 18.8504 16.519 19.0964 15.8878C19.3324 15.2772 19.4944 14.5794 19.5424 13.5577C19.5884 12.5337 19.6004 12.2073 19.6004 9.6001C19.6004 6.99287 19.5884 6.66567 19.5424 5.64166C19.4944 4.61965 19.3324 3.92204 19.0964 3.31163C18.8504 2.68023 18.5224 2.14462 17.9884 1.61102C17.4544 1.07701 16.9204 0.749008 16.2884 0.504005C15.6763 0.266603 14.9783 0.104801 13.9563 0.0580006C12.9323 0.0114001 12.6063 0 9.99829 0H10.0013ZM9.14004 1.72999C9.39564 1.72959 9.68084 1.72999 10.0012 1.72999C12.5645 1.72999 12.8683 1.73919 13.8805 1.78519C14.8165 1.82799 15.3245 1.98439 15.6629 2.11579C16.1109 2.2898 16.4303 2.4978 16.7661 2.8338C17.1021 3.16981 17.3101 3.48981 17.4845 3.93781C17.6159 4.27582 17.7725 4.78382 17.8151 5.71983C17.8611 6.73184 17.8711 7.03585 17.8711 9.59787C17.8711 12.1599 17.8611 12.4639 17.8151 13.4759C17.7723 14.4119 17.6159 14.9199 17.4845 15.2579C17.3105 15.7059 17.1021 16.0249 16.7661 16.3607C16.4301 16.6967 16.1111 16.9047 15.6629 17.0788C15.3249 17.2108 14.8165 17.3668 13.8805 17.4096C12.8685 17.4556 12.5645 17.4656 10.0012 17.4656C7.43782 17.4656 7.13402 17.4556 6.12201 17.4096C5.186 17.3664 4.67799 17.21 4.33939 17.0786C3.89139 16.9045 3.57138 16.6965 3.23538 16.3605C2.89937 16.0245 2.69137 15.7053 2.51697 15.2571C2.38557 14.9191 2.22897 14.4111 2.18637 13.4751C2.14037 12.4631 2.13117 12.1591 2.13117 9.59547C2.13117 7.03185 2.14037 6.72944 2.18637 5.71743C2.22917 4.78142 2.38557 4.27342 2.51697 3.93501C2.69097 3.48701 2.89937 3.16701 3.23538 2.831C3.57138 2.495 3.89139 2.287 4.33939 2.1126C4.67779 1.98059 5.186 1.82459 6.12201 1.78159C7.00762 1.74159 7.35082 1.72959 9.14004 1.72759V1.72999ZM15.1257 3.32401C14.4897 3.32401 13.9737 3.83942 13.9737 4.47562C13.9737 5.11163 14.4897 5.62764 15.1257 5.62764C15.7617 5.62764 16.2777 5.11163 16.2777 4.47562C16.2777 3.83962 15.7617 3.32401 15.1257 3.32401ZM10.0013 4.67002C7.27868 4.67002 5.07125 6.87745 5.07125 9.60007C5.07125 12.3227 7.27868 14.5291 10.0013 14.5291C12.7239 14.5291 14.9306 12.3227 14.9306 9.60007C14.9306 6.87745 12.7239 4.67002 10.0013 4.67002ZM10.0013 6.40004C11.7685 6.40004 13.2013 7.83265 13.2013 9.60007C13.2013 11.3673 11.7685 12.8001 10.0013 12.8001C8.23385 12.8001 6.80123 11.3673 6.80123 9.60007C6.80123 7.83265 8.23385 6.40004 10.0013 6.40004Z"
+                      fill="#121212" />
+                  </svg>
+
+                </a>
               </li>
 
               <li>
-                <a href="">Press</a>
+                <a href="" class="text-primary text-2xl">
+                  <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M9.7226 4.42002L9.76422 5.1063L9.07056 5.02226C6.54567 4.70013 4.33985 3.60768 2.46699 1.77293L1.55137 0.862562L1.31552 1.53484C0.816094 3.03345 1.13517 4.6161 2.17565 5.68053C2.73058 6.26877 2.60572 6.35281 1.64848 6.00266C1.31552 5.89062 1.02419 5.80658 0.996444 5.8486C0.899332 5.94664 1.23229 7.22116 1.49587 7.72537C1.85657 8.42565 2.59185 9.11194 3.39648 9.5181L4.07626 9.84023L3.27163 9.85424C2.49473 9.85424 2.46699 9.86825 2.55023 10.1624C2.82769 11.0727 3.92366 12.0391 5.14449 12.4593L6.00462 12.7534L5.25547 13.2016C4.14563 13.8459 2.84156 14.21 1.53749 14.238C0.913205 14.252 0.399902 14.3081 0.399902 14.3501C0.399902 14.4901 2.09242 15.2745 3.0774 15.5826C6.03236 16.493 9.54225 16.1008 12.1781 14.5462C14.051 13.4397 15.9239 11.2408 16.7979 9.11194C17.2695 7.97747 17.7412 5.90462 17.7412 4.91022C17.7412 4.26595 17.7828 4.18192 18.5597 3.4116C19.0175 2.96342 19.4476 2.47322 19.5308 2.33316C19.6696 2.06705 19.6557 2.06705 18.9482 2.30515C17.769 2.72532 17.6025 2.6693 18.1852 2.03904C18.6152 1.59086 19.1285 0.778527 19.1285 0.54043C19.1285 0.498413 18.9204 0.568441 18.6846 0.694493C18.4349 0.83455 17.88 1.04464 17.4638 1.17069L16.7146 1.40878L16.0348 0.946596C15.6603 0.694493 15.1331 0.414378 14.8556 0.330344C14.1481 0.134264 13.066 0.162275 12.4278 0.386367C10.6937 1.01662 9.59774 2.64129 9.7226 4.42002Z"
+                      fill="#121212" />
+                  </svg>
+
+                </a>
               </li>
 
               <li>
-                <a href="">Careers</a>
-              </li>
+                <a href="" class="text-primary text-2xl">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.000104814 5.0003C8.62885e-05 2.64318 7.70256e-05 1.46463 0.732303 0.732387C1.46453 0.000148157 2.64307 0.000137597 5.00014 0.000116478L13.0013 4.47876e-05C15.3578 2.36738e-05 16.5361 1.31169e-05 17.2683 0.732108C18.0005 1.4642 18.0007 2.64175 18.001 4.99685C18.0014 7.40221 18.0017 10.337 18.0015 13.0051C18.0013 15.3589 18.0012 16.5357 17.269 17.2679C16.5368 18 15.3595 18.0001 13.0048 18.0002C10.3365 18.0003 7.66829 17.9999 5.00006 17.9997C2.64291 17.9994 1.46434 17.9993 0.732194 17.2671C4.9263e-05 16.5349 5.90805e-05 15.3564 7.87155e-05 12.9994C0.000100927 10.333 0.000125771 7.66665 0.000104814 5.0003ZM7.12478 8.08095C7.12478 7.40789 7.6704 6.86227 8.34346 6.86227H9.32838C9.45748 6.86227 9.56214 6.96693 9.56214 7.09603C9.56214 7.34271 10.0036 7.48925 10.201 7.34131C10.6686 6.99087 11.3312 6.74936 12.1664 6.74936C14.7592 6.74936 15.3737 8.15091 15.3737 10.7225V14.174C15.3737 14.8985 14.7863 15.4859 14.0617 15.4859C13.3372 15.4859 12.7498 14.8985 12.7498 14.174V11.3083C12.7498 9.84373 12.398 9.01737 11.5045 9.01737C10.265 9.01737 9.74951 9.90837 9.74951 11.3083V14.1735C9.74951 14.8983 9.16194 15.4859 8.43714 15.4859C7.71234 15.4859 7.12478 14.8983 7.12478 14.1735V8.08095ZM2.62478 14.0615C2.62478 14.7863 3.21234 15.3738 3.93714 15.3738C4.66194 15.3738 5.24951 14.7863 5.24951 14.0615V8.06173C5.24951 7.33693 4.66194 6.74936 3.93714 6.74936C3.21234 6.74936 2.62478 7.33693 2.62478 8.06173V14.0615ZM5.62505 3.93645C5.63 4.16119 5.59001 4.38464 5.50743 4.59371C5.42485 4.80278 5.30134 4.99325 5.14415 5.15393C4.98696 5.31462 4.79926 5.44229 4.59206 5.52946C4.38486 5.61662 4.16234 5.66152 3.93755 5.66152C3.71277 5.66152 3.49024 5.61662 3.28304 5.52946C3.07584 5.44229 2.88814 5.31462 2.73095 5.15393C2.57376 4.99325 2.45026 4.80278 2.36767 4.59371C2.28509 4.38464 2.2451 4.16119 2.25005 3.93645C2.25977 3.49534 2.44182 3.07556 2.75723 2.76702C3.07264 2.45848 3.49633 2.28571 3.93755 2.28571C4.37878 2.28571 4.80246 2.45848 5.11787 2.76702C5.43328 3.07556 5.61534 3.49534 5.62505 3.93645Z"
+                      fill="#121212" />
+                  </svg>
 
-              <li>
-                <a href="">Refer a Friend</a>
-              </li>
-            </ul>
-          </div>
-          
-          <div class="col-md mt-4" >
-            <div class="h6">
-              Categories
-            </div>
-            <ul>
-              <li>
-                <a href="">RMO</a>
-              </li>
 
-              <li>
-                <a href="">Registration</a>
-              </li>
-
-              <li>
-                <a href="">Consultant</a>
+                </a>
               </li>
             </ul>
           </div>
 
-          
-          <div class="col-md mt-4">
-            <div class="h6">
-              Resources
-            </div>
-            <ul>
-              <li>
-                <a href="">FAQ’s</a>
-              </li>
-
-              <li>
-                <a href="">Support</a>
-              </li>
-
-              <li>
-                <a href="">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-12 footer-bottom">
-            <hr>
-          </div>
         </div>
-        <!-- Footer Elements -->
-        <div class="row">
-          <div class="col-md-6 footer-copy">
-            © 2024 Go Locum. All Rights Reserved.
+        <div class="col-md mt-4">
+          <div class="h6">
+            Company
           </div>
-          <div class="col-md-6 text-md-end">
-              <div class="d-inline-flex footer-privacy">
-                  <a href="">Terms and Conditions</a>
-                  <a href="">Privacy Policy</a>
-              </div>
+          <ul>
+            <li>
+              <a href="">About Us</a>
+            </li>
+
+            <li>
+              <a href="">Press</a>
+            </li>
+
+            <li>
+              <a href="">Careers</a>
+            </li>
+
+            <li>
+              <a href="">Refer a Friend</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md mt-4">
+          <div class="h6">
+            Categories
           </div>
-          <p></p>
+          <ul>
+            <li>
+              <a href="">RMO</a>
+            </li>
+
+            <li>
+              <a href="">Registration</a>
+            </li>
+
+            <li>
+              <a href="">Consultant</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-md mt-4">
+          <div class="h6">
+            Resources
+          </div>
+          <ul>
+            <li>
+              <a href="">FAQ’s</a>
+            </li>
+
+            <li>
+              <a href="">Support</a>
+            </li>
+
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 footer-bottom">
+          <hr>
         </div>
       </div>
-    </footer>
+      <!-- Footer Elements -->
+      <div class="row">
+        <div class="col-md-6 footer-copy">
+          © 2024 Go Locum. All Rights Reserved.
+        </div>
+        <div class="col-md-6 text-md-end">
+          <div class="d-inline-flex footer-privacy">
+            <a href="">Terms and Conditions</a>
+            <a href="">Privacy Policy</a>
+          </div>
+        </div>
+        <p></p>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 <script src="./script.js"></script>
 
 </html>
