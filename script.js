@@ -11,7 +11,9 @@ let progress_dict = {}
 function activeProgressBar() {
     let intv = setInterval(function () {
         $(`.card-slider .care-corner-slider`).removeClass('active')
+        // $('.home-side-img-sec .side-img').addClass('d-none')
         $($(`.card-slider .care-corner-slider`)[active_ele]).addClass('active')
+        // $($('.home-side-img-sec .side-img')[active_ele]).removeClass('d-none')
         if (progress_dict[active_ele]) {
             progress_dict[active_ele] += 2.4
         } else {
