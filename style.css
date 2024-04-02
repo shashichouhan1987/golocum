@@ -55,6 +55,11 @@ h2{
     border-color: var(--secondary);
     color: var(--secondary);
 }
+.btn-outline-secondary:hover{
+    background-color: var(--secondary);
+    color: white;
+    border-color: var(--secondary);
+}
 .btn-primary{
     background-color: var(--primary);
     border-color: var(--primary);
@@ -759,6 +764,16 @@ border: 1px solid rgba(18, 18, 18, 0.1)
 .job-detail-img {
     margin-top:3rem;
     margin-bottom: 3rem;
+}
+.job-detail h3{
+    font-family: var(--body-font);
+}
+.job-detail .card{
+    background-color: #FCFCFD !important;
+    border: 1px solid #E6E8EC;
+}
+.job-detail .date{
+    color: #777E90;
 }
 .job-detail-img img{
     border-radius: 2rem;
