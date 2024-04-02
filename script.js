@@ -37,6 +37,7 @@ function activeProgressBar() {
 }
 
 $(document).ready(function(){
+    //Click event on slider
     $('.card-slider .care-corner-slider').click(function(){
         active_ele=Math.floor($(this).index()/2)
         if(intv){
@@ -44,6 +45,12 @@ $(document).ready(function(){
         }
         progress_dict={}
         activeProgressBar()
+    })
+
+    //Click event on dropdown
+    $('.drpdwn-event li').click(function(){
+        debugger
+        $(this).parent().parent().find('.drpdwn-btn').text($(this).text())
     })
 })
 

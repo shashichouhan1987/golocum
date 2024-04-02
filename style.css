@@ -866,11 +866,15 @@ border: 1px solid rgba(18, 18, 18, 0.1)
     border: none;
     font-size: 16px;
     background-color: #fff;
+    cursor: pointer;
+  }
+  .dropdown-menu li{
+    cursor: pointer;
   }
 
   .mr-rl-2{
-    margin-left: 3px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 12px;
   }
   .ml-2{
     margin-left: 2px;
