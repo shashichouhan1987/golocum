@@ -16,6 +16,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">  
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <title>Go Locum</title>
   </head>
 
@@ -93,8 +96,20 @@
 
       <div class="job-list-filter" data-aos="fade-up"
       data-aos-duration="1600">
+     	
           <div class="job-filter-item select-search">
-            <input type="text" class="form-control form-control-lg"  placeholder="Registrar">
+            <input type="text" class="form-control form-control-lg drpdwn-btn dropdown-toggle" data-bs-toggle="dropdown" placeholder="Registrar">
+            <!-- <button type="button" class="drpdwn-btn dropdown-toggle" data-bs-toggle="dropdown">
+              Nurse
+            </button> -->
+            <ul class="dropdown-menu p-2">
+              <li><input type="checkbox" name="" id=""><span class="ml-2">ALL role</span></li>
+              <li><input type="checkbox" name="" id=""><span class="ml-2">Resident</span></li>
+              <li><input type="checkbox" name="" id="" checked><span class="ml-2">Registrar</span></li>
+              <li><input type="checkbox" name="" id=""><span class="ml-2">Consultant</span></li>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Registrar</a>
+            </ul>
           </div>
           <div class="job-filter-item select-search">
             <input type="text" class="form-control form-control-lg" id="specialities" placeholder="Select Specialities">
@@ -577,7 +592,7 @@
     </footer>
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
