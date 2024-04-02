@@ -104,7 +104,7 @@ h2{
     margin-right: 3rem;
 }
 .hero-img{
-    background: url(/images/hero-bg.png) no-repeat;
+    background: url(images/hero-bg.png) no-repeat;
     border-radius: 3rem !important;
     background-size: cover;
     min-height: 46.25rem;
@@ -152,7 +152,7 @@ h2{
     padding: 0 1.25rem 0 0;
     -moz-padding-start: 0;
     margin-right: 3rem;
-    background-image: url(/images/select-img.png);
+    background-image: url(images/select-img.png);
     background-size: 20px 20px;
     color: var(--secondary);
     background-position: right center;
@@ -638,7 +638,7 @@ hr{
     padding-right: .5rem;
     color: #6c757d;
     content:'';
-    background: url(/images/breadcrumb-arrow.svg);
+    background: url(images/breadcrumb-arrow.svg);
     width: 1.25rem;
     height: 1.25rem;
     margin-right: .5rem;
@@ -725,7 +725,7 @@ border: 1px solid rgba(18, 18, 18, 0.1)
 .select-search input{
     padding-left: 3.125rem;
     padding-right: 3.125rem;
-    background: url(/images/search-icon.svg) no-repeat;
+    background: url(images/search-icon.svg) no-repeat;
     background-position: 1.3rem center;
     position: relative;
     z-index: 0;
@@ -737,7 +737,7 @@ border: 1px solid rgba(18, 18, 18, 0.1)
     content: '';
     width: 1.25rem;
     height: 1.25rem;
-    background:url(/images/select-img.png) no-repeat;
+    background:url(images/select-img.png) no-repeat;
     z-index: 1;
 }
 .select-dates{
@@ -746,7 +746,7 @@ border: 1px solid rgba(18, 18, 18, 0.1)
 .select-dates input{
     padding-left: 3.125rem;
     padding-right: 3.125rem;
-    background: url(/images/calendar-icon.svg) no-repeat;
+    background: url(images/calendar-icon.svg) no-repeat;
     background-position: 1.3rem center;
     position: relative;
     z-index: 0;
