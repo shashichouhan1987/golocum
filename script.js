@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 const num_of_ele = 3
 let active_ele = 0
 let progress_dict = {}

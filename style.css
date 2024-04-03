@@ -55,6 +55,11 @@ h2{
     border-color: var(--secondary);
     color: var(--secondary);
 }
+.btn-outline-secondary:hover{
+    background-color: var(--secondary);
+    color: white;
+    border-color: var(--secondary);
+}
 .btn-primary{
     background-color: var(--primary);
     border-color: var(--primary);
@@ -91,14 +96,18 @@ h2{
 .dropdown-toggle::after{
     vertical-align: .155em;
 }
-.navbar-light .dropdown-menu{
+.navbar-light .dropdown-menu, .hero-form-sec .dropdown-menu, .dropdown-menu{
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 40px 68px 0px;
     border-radius: 1rem;
 }
+.job-filter-item .dropdown-menu{
+    box-shadow: 0px 4px 14.199999809265137px 0px rgba(0, 0, 0, 0.13);
+}
 .navbar-light .dropdown-item.active, .navbar-light .dropdown-item:active, .navbar-light .dropdown-item:hover{
     background-color:transparent !important;
     color: var(--primary) !important;
+    text-decoration: none;
 }
 .navbar-brand{
     margin-right: 3rem;
@@ -138,6 +147,16 @@ h2{
     display: inline-flex;
     background-color: white;
     border-radius: 50rem;
+    gap:3rem;
+}
+.hero-form-sec .dropdown-menu li a{
+    color: var(--secondary) !important;
+    text-decoration: none;
+    display: block;
+    padding: .3rem var(--bs-dropdown-item-padding-x);
+}
+.hero-form-sec .dropdown-menu li a:hover{
+    color: var(--primary) !important;
 }
 .hero-form-sec label{
     font-size: 0.75rem;
@@ -149,13 +168,11 @@ h2{
     font-weight: 500;
     width: unset;
     border: 0;
-    padding: 0 1.25rem 0 0;
+    padding:0;
     -moz-padding-start: 0;
-    margin-right: 3rem;
-    background-image: url(images/select-img.png);
-    background-size: 20px 20px;
     color: var(--secondary);
     background-position: right center;
+    background: #fff;
 }
 .hero-form-sec .form-select option{
     font-size: 1rem;
@@ -633,6 +650,10 @@ hr{
     color: var(--secondary);
     font-size: .875rem;
 }
+.breadcrumb {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
 .breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: .5rem;
@@ -695,6 +716,12 @@ color: rgba(18, 18, 18, 0.6);
     display: flex;
     gap: 1rem;
     margin-bottom: 3.5rem;
+    z-index: 2;
+    position: relative;
+}
+.job-list{
+    position: relative;
+    z-index: 1;
 }
 .job-filter-item{
     flex-grow: 1;
@@ -722,13 +749,26 @@ border: 1px solid rgba(18, 18, 18, 0.1)
 .select-search{
     position: relative;
 }
-.select-search input{
+.select-search  > input{
     padding-left: 3.125rem;
     padding-right: 3.125rem;
     background: url(images/search-icon.svg) no-repeat;
     background-position: 1.3rem center;
     position: relative;
     z-index: 0;
+}
+.drop-down-title{
+font-size: 13px;
+font-weight: 300;
+line-height: 16.38px;
+text-align: left;
+color: rgba(117, 119, 134, 1);
+margin-bottom: .875rem;
+}
+
+.form-check-input:checked{
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 .select-search::before{
     position: absolute;
@@ -742,6 +782,27 @@ border: 1px solid rgba(18, 18, 18, 0.1)
 }
 .select-dates{
     position: relative;
+}
+.form-check{
+    margin-bottom: .625rem;
+}
+.clear-all{
+font-size: 14px;
+font-weight: 500;
+line-height: 17.64px;
+text-align: left;
+text-decoration: underline;
+color: var(--secondary);
+}
+.clear-all:hover{
+    color: var(--primary);
+}
+.date-from-to{
+padding: 11px 14px 11px 30px !important;
+gap: 10px;
+border-radius: 8px;
+background-position: .7em center !important;
+background-size: 1rem !important;
 }
 .select-dates input{
     padding-left: 3.125rem;
@@ -760,9 +821,49 @@ border: 1px solid rgba(18, 18, 18, 0.1)
     margin-top:3rem;
     margin-bottom: 3rem;
 }
+.job-detail h3{
+    font-family: var(--body-font);
+}
+.job-detail .card{
+    background-color: #FCFCFD !important;
+    border: 1px solid #E6E8EC;
+}
+.job-detail .date{
+    color: #777E90;
+}
 .job-detail-img img{
     border-radius: 2rem;
     width: 100%;
+}
+.review-rating-detail{
+    display: grid;
+    grid-template-columns: auto 1px 1fr;
+    gap: 1.5rem;
+}
+.progress{
+    height: 6px;
+    margin-top: .5rem;
+}
+.progress-bar{
+    background: rgba(255, 209, 102, 1);
+
+}
+.rating-heading{
+font-size: 48px;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+
+}
+.rating-review-count{
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(119, 126, 144, 1);
+}
+.rating-devider{
+    border-right: 1px solid rgba(230, 232, 236, 1)
 }
 @media (max-width:767px) {
     .hero h1{
@@ -827,7 +928,11 @@ border: 1px solid rgba(18, 18, 18, 0.1)
         font-size: var(--body-font);
         font-size: 2.5rem;
     margin-bottom: 1rem;
-    line-height: unset;
+    line-height: 1;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
     }
 
 }
@@ -863,7 +968,6 @@ border: 1px solid rgba(18, 18, 18, 0.1)
 
   .drpdwn-btn{
     padding: 1px;
-    border: none;
     font-size: 16px;
     background-color: #fff;
     cursor: pointer;
