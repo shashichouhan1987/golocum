@@ -650,6 +650,10 @@ hr{
     color: var(--secondary);
     font-size: .875rem;
 }
+.breadcrumb {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
 .breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: .5rem;
@@ -924,7 +928,11 @@ color: rgba(119, 126, 144, 1);
         font-size: var(--body-font);
         font-size: 2.5rem;
     margin-bottom: 1rem;
-    line-height: unset;
+    line-height: 1;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
     }
 
 }
